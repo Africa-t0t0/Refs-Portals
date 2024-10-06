@@ -26,9 +26,9 @@ export default function Player() {
 
   return (
     <section id="player">
-      {/* <h2>Welcome {userName ? userName : 'unknown entity'}</h2> */}
+      <h2>Welcome {userName ? userName : 'unknown entity'}</h2>
       {/* another way of writing thar code is */}
-      <h2>Welcome {userName ?? 'unknown entity'}</h2>
+      {/* <h2>Welcome {userName ?? 'unknown entity'}</h2> */}
       <p>
         {/* old version */}
         {/* <input
