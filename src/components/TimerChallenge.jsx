@@ -15,8 +15,6 @@ export default function TimerChallenge({ title, targetTime }) {
     const [timeRemaining, setTimeRemaining] = useState(targetTime * 1000);
     const timerIsActive = timeRemaining > 0 && timeRemaining < targetTime * 1000;
 
-    console.log('timer is active?', timerIsActive);
-
     if (timeRemaining <= 0) {
         console.log('timer is up')
         clearInterval(timer.current);
